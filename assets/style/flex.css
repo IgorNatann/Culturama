@@ -38,6 +38,8 @@
     max-width: 400px;
 }
 
+/* Agenda */
+
 .agenda__lista {
     display: flex;
     justify-content: center;
@@ -51,8 +53,15 @@
     flex-grow: 1;
 }
 
-.rodape__lista {
-    
+/* Rodape */
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodape__logo {
+    align-self: end;
 }
 
 @media (min-width: 720px) {
